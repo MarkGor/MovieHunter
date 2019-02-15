@@ -218,7 +218,7 @@ def download(url, name):
         if not os.path.exists(name):
             os.mkdir(name)
 
-        print '[+] Star parse ts list...'
+        print '[+] start parse ts list...'
 
         ts_url_list = parse_ts_list(url, name)
         if len(ts_url_list) == 0:
@@ -231,13 +231,13 @@ def download(url, name):
                 print utf2gbk('[-]解析2次m3u8失败')
                 return
 
-        print '[+] Star parse ts list finish. ', len(ts_url_list)
+        print '[+] start parse ts list finish. ', len(ts_url_list)
         # print ts_url_list[0]
 
         ts_list_file = os.path.join(name, 'ts_list.txt')
         save_file(ts_list_file, '\n'.join(ts_url_list))
 
-        print '[+] Star download ts file...'
+        print '[+] start download ts file...'
         # download_ts_file(ts_url_list[0], os.path.join(name, os.path.basename(ts_url_list[0])))
         download_thread(ts_url_list, name)
 
