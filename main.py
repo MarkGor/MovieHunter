@@ -5,7 +5,7 @@ import os, sys, time
 import threading
 import urlparse
 
-import lost, merge, xigua15
+import lost, merge, search
 
 def utf2gbk(s):
     return s.decode('utf8').encode('gbk')
@@ -264,10 +264,10 @@ def download(url, name):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print 'usage: main.py 电影名'
+        print utf2gbk('usage: main.py 电影名')
     else:
         name = sys.argv[1]
-        url = xigua15.search(name)
+        url = search.search(name)
         if url != None:
             print '[+] Find film url: ', url
             download(utf2gbk(url), name)

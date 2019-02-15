@@ -6,10 +6,21 @@
 
 使用方法：
 
+直接试用已经编译好的exe：
+
+```
+bin/main.exe 电影名
+```
+
+或者自行安装python环境后试用
+
 ```
 python main.py 电影名
-// main.exe 电影名
 ```
+
+依赖：
+1. python2.7
+2. requests、simplejson
 
 说明：
 
@@ -19,9 +30,6 @@ python main.py 电影名
 
 具体细节，请看代码，以及注释。
 
-依赖：
-1. python2.7
-2. requests、simplejson
 
 ```
 pip install requests
