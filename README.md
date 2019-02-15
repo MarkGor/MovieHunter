@@ -36,6 +36,33 @@ pip install requests
 pip install simplejson
 ```
 
+演示：
+
+```
+PS D:\> .\main.exe 疯狂的外星人
+[+] Find film url:  https://135zyv6.xw0371.com/2019/02/07/xxxx/playlist.m3u8
+[+] Start downloading  疯狂的外星人
+[+] Start parse ts list...
+[+] Start parse ts list finish.  1332
+[+] Start download ts file...
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[+] pop task Finish.
+[+} Task 49 is running.
+[+} Task 45 is running.
+[+} Task 34 is running.
+[+} Task 28 is running.
+[+} Task 21 is running.
+[+} Task 14 is running.
+[+} Task 7 is running.
+[+} Task 5 is running.
+[+} Task 2 is running.
+[+} Task 1 is running.
+[+] All task finish.
+[+] Download ts file finish
+[+] 开始合并...
+[+] 完成
+```
+
 # 赞我
 
 ![img](pay.png)
