@@ -6,13 +6,13 @@
 
 使用方法：
 
-直接试用已经编译好的exe：
+直接使用已经编译好的exe：
 
 ```
 bin/main.exe 电影名
 ```
 
-或者自行安装python环境后试用
+或者自行安装python环境后使用
 
 ```
 python main.py 电影名
