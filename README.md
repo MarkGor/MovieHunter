@@ -19,6 +19,15 @@ python main.py 电影名
 
 具体细节，请看代码，以及注释。
 
+依赖：
+1. python2.7
+2. requests、simplejson
+
+```
+pip install requests
+pip install simplejson
+```
+
 # 赞我
 
 ![img](pay.png)
